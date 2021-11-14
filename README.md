@@ -1,6 +1,15 @@
 # [udpxy](https://github.com/pcherenkov/udpxy) Binary
 Release static build of  udpxy binary
 
+## Download example
+
+`wget https://github.com/ihipop/udpxy_binary/releases/download/v1.0-25.1/udpxy_x86_64-linux-gnu.tar.gz -O udpxy.tar.gz && tar xvf udpxy.tar.gz`
+
+## Where is `udpxrec` ?
+
+```bash
+ln -sf udpxy udpxrec
+```
 
 ## How do I build it ?
 see https://github.com/ihipop/udpxy_binary/blob/master/build.sh
